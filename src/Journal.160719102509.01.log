@@ -1,0 +1,25 @@
+{ "Heading": { "localdatetime":"16-07-19-10:25", "timezone":"GMT Summer Time", "gmt_time":"09:25", "part":1, "gameversion":"2.2 (Trunk)", "build":"r113955 " }
+,"09:25:35": { "event":"LoadGame", "Commander":"HRC1", "Ship":"Asp" }
+,"09:25:35": { "event":"Rank", "Combat":0, "Trade":0, "Explore":1, "Empire":0, "Federation":0, "CQC":0 }
+,"09:25:35": { "event":"Progress", "Combat":0, "Trade":0, "Explore":7, "Empire":0, "Federation":0, "CQC":0 }
+,"09:25:43": { "event":"Location", "StarSystem":"Timocani", "StarPos":[24.625,10.750,-72.406], "Faction":"Timocani Gold Vision Limited" }
+,"09:28:21": { "event":"FSDJump", "StarSystem":"Cerno", "StarPos":[30.063,26.875,-82.938], "JumpDist":20.012, "Faction":"Cerno Transport Interstellar" }
+,"09:32:41": { "event":"SupercruiseExit", "StarSystem":"Cerno", "Body":"Kanwar Enterprise" }
+,"09:33:05": { "event":"Docked", "StationName":"Kanwar Enterprise", "StationType":"Coriolis", "Faction":"Cerno Transport Interstellar" }
+,"09:33:23": { "event":"RefuelAll", "Cost":248, "Amount":4.937758 }
+,"09:34:28": { "event":"SellExplorationData", "Systems":[ "Maia", "Merope", "Atlas", "Wolf 289", "Geawenki", "Timocani" ], "Discovered":[ "Timocani A", "Timocani A 2" ], "BaseValue":8783, "Bonus":1919 }
+,"09:35:52": { "event":"ModuleBuy", "Slot":"MainEngines", "SellItem":"int_engine_size5_class1", "SellPrice":19565, "BuyItem":"int_engine_size5_class2", "BuyPrice":184310, "Ship":"asp" }
+,"09:36:07": { "event":"ModuleSell", "Slot":"Slot06_Size2", "SellItem":"int_cargorack_size1_class1", "SellPrice":877, "Ship":"asp" }
+,"09:36:27": { "event":"ModuleBuy", "Slot":"Slot07_Size2", "SellItem":"int_stellarbodydiscoveryscanner_standard", "SellPrice":0, "BuyItem":"int_stellarbodydiscoveryscanner_intermediate", "BuyPrice":492375, "Ship":"asp" }
+,"09:36:44": { "event":"ModuleBuy", "Slot":"Slot05_Size3", "BuyItem":"int_fuelscoop_size3_class5", "BuyPrice":880381, "Ship":"asp" }
+,"09:37:05": { "event":"ModuleBuy", "Slot":"Slot03_Size3", "SellItem":"int_cargorack_size2_class1", "SellPrice":2851, "BuyItem":"int_cargorack_size3_class1", "BuyPrice":10299, "Ship":"asp" }
+,"09:37:37": { "event":"ModuleBuy", "Slot":"Slot06_Size2", "BuyItem":"int_buggybay_size2_class2", "BuyPrice":21060, "Ship":"asp" }
+,"09:41:47": { "event":"MarketBuy", "Type":"semiconductors", "Count":8, "BuyPrice":538, "TotalCost":4304 }
+,"09:42:35": { "event":"MissionAccepted", "Faction":"Cerno Transport Interstellar", "Name":"Mission_Delivery", "Commodity":"MicroControllers", "Count":9 }
+,"09:42:56": { "event":"Undocked", "StationName":"Kanwar Enterprise", "StationType":"Coriolis" }
+,"09:44:37": { "event":"FSDJump", "StarSystem":"Enek", "StarPos":[37.250,32.719,-87.281], "JumpDist":10.231, "Faction":"Enek Comms Co" }
+,"09:45:07": { "event":"FuelScoop", "Scooped":0.446264, "Total":32.000000 }
+,"09:47:32": { "event":"SupercruiseExit", "StarSystem":"Enek", "Body":"Carr Station" }
+,"09:48:07": { "event":"Docked", "StationName":"Carr Station", "StationType":"Coriolis", "Faction":"Enek Comms Co" }
+,"09:49:35": { "event":"MarketSell", "Type":"semiconductors", "Count":8, "SellPrice":1375, "TotalSale":11000, "AvgPricePaid":538 }
+}
