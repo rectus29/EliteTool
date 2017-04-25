@@ -21,7 +21,10 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
 		this.primaryStage = primaryStage;
         primaryStage.setTitle("Hello World");
+
+		FXMLLoader loader = new FXMLLoader();
 		Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+		rootLayout = (BorderPane) loader.load();
 
 		primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
@@ -33,7 +36,7 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
-        launch(args);
+        //launch(args);
         String logPath = "journal.log";
 
 		try(FileReader fr = new FileReader(logPath);){

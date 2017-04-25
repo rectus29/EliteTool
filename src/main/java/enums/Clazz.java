@@ -1,5 +1,5 @@
 
-package entities;
+package enums;
 
 public enum Clazz{
 	SIZE1,

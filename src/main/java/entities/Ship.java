@@ -8,10 +8,6 @@ public class Ship extends GenericEntity{
 
 	private String name;
 	private String manufacturer;
-	private String name;
-	private String name;
-	private String name;
-	private String name;
 	private Boolean fighterEligeable = false;
 	private List<Slot> slots= new ArrayList<>();
 }
