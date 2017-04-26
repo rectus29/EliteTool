@@ -1,5 +1,5 @@
 
-package entities;
+package com.rectusCorp.EliteTool.entities;
 
 import enums.Clazz;
 import enums.Size;

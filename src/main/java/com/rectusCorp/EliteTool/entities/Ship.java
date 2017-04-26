@@ -1,5 +1,4 @@
-
-package entities;
+package com.rectusCorp.EliteTool.entities;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,4 @@
-
-package entities;
-
-import enums.EventType;
+package com.rectusCorp.EliteTool.entities;
 
 public class MarketEvent extends Event {
 

@@ -1,5 +1,5 @@
 
-package enums;
+package com.rectusCorp.EliteTool.enums;
 
 public enum Clazz{
 	SIZE1,

@@ -1,3 +1,5 @@
+package com.rectusCorp.EliteTool.view;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -6,9 +8,6 @@ import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.io.BufferedReader;
-import java.io.FileReader;
 
 public class Main extends Application {
 
@@ -35,18 +34,7 @@ public class Main extends Application {
 	}
 
 
-    public static void main(String[] args) {
-        //launch(args);
-        String logPath = "journal.log";
 
-		try(FileReader fr = new FileReader(logPath);){
-			BufferedReader br = new BufferedReader(fr);
-
-
-		} catch (Exception e) {
-			log.error(e);
-		}
-	}
 
 
 
