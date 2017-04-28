@@ -15,7 +15,7 @@ public class LogPanel{
 			loader.setLocation(LogPanel.class.getResource("LogPanel.fxml"));
 			AnchorPane personOverview = (AnchorPane) loader.load();
 			// Set person overview into the center of root layout.
-			rootLayout.setCenter(personOverview);
+			//rootLayout.setCenter(personOverview);
 
 
 
