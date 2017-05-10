@@ -6,6 +6,9 @@ public abstract class Event extends GenericEntity {
 
 	private String date;
 	private EventType eventType = EventType.UNKNOW;
-	private String eventString;
+
+
+	public abstract String getEventString();
+
 
 }
